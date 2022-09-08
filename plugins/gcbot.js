@@ -9,7 +9,7 @@ let fetch = require('node-fetch')
          let _gc2 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc2) 
          let _gc3 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc3) 
          let caption = ` 
- *Join juga group official Cute Bot!* 
+ *Join juga group official Bot!* 
  Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
@@ -25,8 +25,8 @@ let fetch = require('node-fetch')
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
                sourceUrl: 'https://youtu.be/-tKVN2mAKRI', 
-               title: 'Official group', 
-               body: 'Haruno Bot', 
+               title: 'group', 
+               body: 'yuk ngaji', 
                thumbnail: pp 
              } 
          }}) 
@@ -36,17 +36,17 @@ let fetch = require('node-fetch')
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+https://chat.whatsapp.com/C4RYpIXgqknIXsnn3VDTog
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
+        	sourceUrl: 'https://www.tiktok.com/@lah._ngatur?_t=8VWUvwFRVlC&_r=1',
             title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
-          thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
+            body: '© IQ-MD By Roni',
+          thumbnail: await (await fetch('https://telegra.ph/file/0816aca102c28a4f95798.jpg')).buffer()
         }
      }
     })
