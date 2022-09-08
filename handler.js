@@ -28,20 +28,20 @@ module.exports = {
         global.fake = global.fake
         global.fkontak = global.fkontak
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
-        global.img = 'https://telegra.ph/file/0c567eac403737766688f.jpg'
+        global.img = 'https://telegra.ph/file/0816aca102c28a4f95798.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
         global.packname = ' IQ-MD'
         global.author = 'Made By roni © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Cute Bot By Ziv San © 2022'
-        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Ziv San˚'
-        global.wm2 = '© CUTE IQ-MD' + ' ' + 'By Ziv San'
+        global.author2 = 'Iya Bot By Roni © 2022'
+        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Roni˚'
+        global.wm2 = '© CUTE IQ-MD' + ' ' + 'By Roni'
         global.wm = '© CUTE IQ-MD'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'By Haori & Ziv San'
+        global.colong2 = 'By iya-bot & Roni'
         global.kontak2 = [
-        ['16199961931', 'Ziv San', 'Bot', 'Zivsan@support.com', true],
+        ['79303818315', 'Bot', true],
         ['6285806008040', 'Roni', 'owner', true]
         ]
         global.bg = await (await fetch(img)).buffer()
